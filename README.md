@@ -1,2 +1,2 @@
-# c-level2
+# c# level 2.
 Homeworks of second C# course.
