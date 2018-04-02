@@ -13,11 +13,6 @@ namespace Asteroids
             };
             SplashScreen mainMenu = new SplashScreen(mainScreen);
             Application.Run(mainScreen);
-
-            /*Game.Init(mainScreen);
-            mainScreen.Show();
-            Game.Draw();
-            Application.Run(mainScreen);*/
         }
     }
 }

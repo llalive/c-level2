@@ -27,6 +27,10 @@ namespace Asteroids
 
         public SplashScreen(Form form)
         {
+            if(form.Height > 1000 || form.Width > 1000 || form.Width <= 0 || form.Height <= 0)
+            {
+                throw new ArgumentOutOfRangeException("Задан некорректный размер экрана!");
+            }
             mainScreen = form;
             form.BackColor = Color.Black;
             lblAutor.Text = "Created by Babikov P.";

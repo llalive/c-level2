@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/Asteroids/v15
+/Asteroids/bin/Debug
+/Asteroids/obj/Debug
+/Asteroids/Asteroids.csproj.user
