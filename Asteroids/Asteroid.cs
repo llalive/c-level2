@@ -46,5 +46,10 @@ namespace Asteroids
             Pos.X = rnd.Next(Game.Width / 2, Game.Width);
             Pos.Y = rnd.Next(0, 2) == 1 ? Game.Height : 0;
         }
+
+        internal void DecreasePower()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
