@@ -53,6 +53,8 @@
     <Compile Include="BaseObject.cs" />
     <Compile Include="Asteroid.cs" />
     <Compile Include="Bullet.cs" />
+    <Compile Include="Medicine.cs" />
+    <Compile Include="Ship.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="ICollision.cs" />
     <Compile Include="Moon.cs" />
@@ -95,10 +97,15 @@
     <Content Include="Resources\asteroid2.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\heart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\moon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Resources\ship.png" />
+    <Content Include="Resources\ship.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\star1.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

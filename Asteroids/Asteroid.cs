@@ -5,7 +5,7 @@ namespace Asteroids
 {
     class Asteroid : BaseObject, ICloneable
     {
-        private Image image;
+        protected Image image;
         public int Power { get; set; }
 
         public Asteroid(Point pos, Point dir, Size size) : base(pos, dir, size)

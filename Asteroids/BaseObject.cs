@@ -8,6 +8,8 @@ namespace Asteroids
         protected Point Dir;
         protected Size Size;
 
+        public delegate void Message();
+
         protected BaseObject(Point pos, Point dir, Size size)
         {
             Pos = pos;
